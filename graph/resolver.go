@@ -8,4 +8,5 @@ import "github.com/eduardo-villasboas/graph-ql-hands-on/internal/database"
 
 type Resolver struct{
 	CategoryDB *database.Category
+	CourseDB *database.Course
 }
